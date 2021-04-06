@@ -1,1 +1,81 @@
 @import './common.css';
+
+li:nth-child(2) > a {
+  text-decoration: underline;
+  font-size: 2.5vmin;
+  color: rgba(255, 255, 255, 1);
+}
+
+section {
+  width: 60vmax;
+  height: 70vmin;
+  margin-top: 3vmin;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+article {
+  width: 15vmax;
+  height: 30vmin;
+  border: 1px solid white;
+}
+
+article:nth-child(1) > .picture {
+  background-image: url('../image/cisco.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+article:nth-child(2) > .picture {
+  background-image: url('../image/surf.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article:nth-child(3) > .picture {
+  background-image: url('../image/note.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article:nth-child(4) > .picture {
+  background-image: url('../image/flowerload.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.picture {
+  height: 20vmin;
+  border-bottom: 1px solid black;
+}
+
+.about {
+  height: 10vmin;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0 1.5vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-title {
+  font-size: 1.5vmin;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.about-content {
+  font-size: 80%;
+  line-height: 15px;
+}
