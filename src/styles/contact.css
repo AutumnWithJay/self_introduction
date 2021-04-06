@@ -1,5 +1,11 @@
 @import './common.css';
 
+li:nth-child(3) > a {
+  text-decoration: underline;
+  font-size: 2.5vmin;
+  color: rgba(255, 255, 255, 1);
+}
+
 section {
   width: 50vmin;
   margin-top: 10vmin;

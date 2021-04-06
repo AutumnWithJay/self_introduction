@@ -54,7 +54,6 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
   font-size: 2.5vmin;
   color: rgba(255, 255, 255, 1);
 }
